@@ -31,20 +31,53 @@ ul {
 }
 
 .center-content {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .plan {
+  width: 80%;
+  margin: 0 auto;
   background-color: white;
-  width: 100%;
   border-radius: 0.5rem;
   margin-bottom: 1.5rem;
-  padding: 10px;
+  padding: 2rem;
+}
+
+.plan ul {
+  border-top: 1px solid #d3d3d3;
+  margin-bottom: 2.5rem;
 }
 
 .plan li {
   border-bottom: 1px solid #d3d3d3;
+  padding: 1rem;
+}
+
+.plan h1 {
+  line-height: 2;
+}
+
+.selected-plan {
+  background: linear-gradient(to right, #a3a8f0, #696fdd);
+}
+
+.selected-plan h1,
+.selected-plan h2,
+.selected-plan p {
+  color: white;
+}
+
+.selected-plan .learn-more {
+  color: #696fdd;
+  background: white;
+}
+
+.learn-more {
+  background: linear-gradient(to right, #a3a8f0, #696fdd);
+  color: white;
+  border-radius: 0.5rem;
+  padding: 15px;
+  cursor: pointer;
 }
 
 .header {
@@ -102,4 +135,13 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (min-width: 1052px) {
+  .flex-container-vertical {
+    flex-direction: row;
+  }
+  .selected-plan {
+    height: 500px;
+  }
 }
