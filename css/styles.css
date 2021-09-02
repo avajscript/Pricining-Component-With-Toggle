@@ -163,7 +163,6 @@ ul {
     width: 100%;
   }
   .selected-plan {
-    position: relative;
     height: 110%;
     top: -5%;
   }
