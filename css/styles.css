@@ -4,8 +4,7 @@
 }
 
 body {
-  background: url("./images/bg-top.svg") no-repeat,
-    url("../images/bg-bottom.svg") no-repeat, hsl(240, 78%, 98%) no-repeat;
+  background: url("./images/bg-top.svg") no-repeat, url("../images/bg-bottom.svg") no-repeat, #f6f6fe no-repeat;
   text-align: center;
   background-position: top right, bottom left;
   width: 100%;
@@ -17,27 +16,32 @@ body {
 .header {
   margin-top: 5%;
   margin-bottom: 5%;
-  h1 {
-    font-size: 1.6rem;
-    color: hsl(232, 13%, 33%);
-  }
-  p {
-    color: hsl(234, 14%, 74%);
-    display: inline-block;
-  }
 }
+
+.header h1 {
+  font-size: 1.6rem;
+  color: #494c5f;
+}
+
+.header p {
+  color: #b3b5c6;
+  display: inline-block;
+}
+
 .header-content {
   width: 300px;
   margin: 0 auto;
 }
+
 .icon-container {
   display: inline-block;
   width: 55px;
   border-radius: 4rem;
   padding: 4px;
-  background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  background: linear-gradient(#a3a8f0, #696fdd);
   cursor: pointer;
 }
+
 .circle-icon {
   background-color: white;
   width: 25px;
@@ -45,11 +49,11 @@ body {
   border-radius: 4rem;
   float: right;
 }
-//Reusable
 
 .flex-container {
   display: flex;
 }
+
 .flex {
   flex: 1;
   display: flex;
