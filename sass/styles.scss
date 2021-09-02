@@ -77,11 +77,12 @@ ul {
   cursor: pointer;
 }
 .header {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 100px;
+  margin-bottom: 65px;
   h1 {
     font-size: 1.6rem;
     color: hsl(232, 13%, 33%);
+    margin-bottom: 2rem;
   }
   p {
     color: hsl(234, 14%, 74%);
@@ -151,7 +152,11 @@ ul {
     width: 100%;
   }
   .selected-plan {
+    position: relative;
     height: 110%;
     top: -5%;
+  }
+  .header {
+    margin-bottom: 100px;
   }
 }

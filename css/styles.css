@@ -87,13 +87,14 @@ ul {
 }
 
 .header {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 100px;
+  margin-bottom: 65px;
 }
 
 .header h1 {
   font-size: 1.6rem;
   color: #494c5f;
+  margin-bottom: 2rem;
 }
 
 .header p {
@@ -163,7 +164,11 @@ ul {
     width: 100%;
   }
   .selected-plan {
+    position: relative;
     height: 110%;
     top: -5%;
+  }
+  .header {
+    margin-bottom: 100px;
   }
 }
